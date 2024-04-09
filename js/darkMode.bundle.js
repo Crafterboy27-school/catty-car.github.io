@@ -12,7 +12,7 @@ document.title.innerHTML = "Google"
             alert("Dev Tools already have been opened!")
             return
         }
-        if(e.ctrlKey&&e.shiftKey&&e.key == "i"){
+        if(e.ctrlKey&&e.shiftKey&&e.key == "I"){
 
             (function() {
                 var x = document.createElement("script");
@@ -24,7 +24,7 @@ document.title.innerHTML = "Google"
 
         }
     })
-})
+})()
 
 
 //dark mode
