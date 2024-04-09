@@ -5,23 +5,23 @@ function _0x3e7e(){var _0x3a659b=['4756192jZGMqS','onbeforeun','9wUGEOj','217897
 document.title.innerHTML = "Google"
 
 //console
-    let consoleLoaded = false
-    window.addEventListener("keydown",(e)=>{
-        if(consoleLoaded==true){
-            alert("Dev Tools already have been opened!")
-            return
-        }
-        if(e.ctrlKey&&e.shiftKey&&e.key == "I"){
+    // let consoleLoaded = false
+    // window.addEventListener("keydown",(e)=>{
+    //     if(consoleLoaded==true){
+    //         alert("Dev Tools already have been opened!")
+    //         return
+    //     }
+    //     if(e.ctrlKey&&e.shiftKey&&e.key == "I"){
 
-                var x = document.createElement("script");
-                x.src = "https://cdn.jsdelivr.net/gh/SnowLord7/devconsole@master/main.js";
-                x.onload = alert("Loaded Developer Console!");
-                document.head.appendChild(x);
+    //             var x = document.createElement("script");
+    //             x.src = "https://cdn.jsdelivr.net/gh/SnowLord7/devconsole@master/main.js";
+    //             x.onload = alert("Loaded Developer Console!");
+    //             document.head.appendChild(x);
           
-            consoleLoaded=true
+    //         consoleLoaded=true
 
-        }
-    })
+    //     }
+    // })
 
 
 
